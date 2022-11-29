@@ -1,0 +1,14 @@
+@media (max-width: 862px) {
+    .hero {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .hero__last {
+        margin-top: 50px;
+    }
+    .title {
+        max-width: none;
+        text-align: center;
+    }
+}

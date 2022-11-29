@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color);
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    --bg: #303136;
+    --color: #fff;
+    --primary-white: #8174ff;
+    --primary: #6556ff;
+    --card: #36363e;
+    --border: #949494;
+    --gray-color: #c7c7c7;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background: unset;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 26px;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.section__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.section__title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.section__subtitle {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
